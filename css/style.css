@@ -4,7 +4,7 @@
 }
 
 img{
-    width: 35%;
+    width: 23%;
     padding: 1%;
     text-align: center;
 }
@@ -12,6 +12,10 @@ img{
 nav{
     width: 73%;
     padding: 1%;
+    position: relative;
+    left: 800px;
+    bottom: 125px;
+    
 }
 
 ul{
@@ -21,20 +25,30 @@ ul{
 
 h1{
     text-align: right;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top: 60px;
 }
 
 .heroImg{
-    height: 600px;
-    padding: 25px;
+    height: 100px;
+    padding: 25%;
 }
 
 .content{
     width: 500px;
     margin: 0 auto;
+    
 }
 
 footer{
     background-color: #2D1E3D
+    display: inline-block;
+    padding: 8%;
+    position: relative;
+    left: -200px;
+    top: 60px;
 }
 
 
